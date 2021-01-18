@@ -1,0 +1,1 @@
+SELECT no, nama, p_tugas, tmt_kerja, jabatan, unit_kerja, foto,((year(curdate())-year(tmt_kerja)) - (right(curdate(),5) < right(tmt_kerja,5))) as umur from tb_thldalam
